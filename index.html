@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="/youtube/img/Youtube_logo-Photoroom.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+
+        }
+
+        body {
+            background-color: #F9F9F9;
+        }
+
+        .cabeca {
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            height: 35px;
+            padding: 15px 20px;
+
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            width: 60%;
+            flex: 3;
+
+
+        }
+
+        .video {
+            width: 100%;
+            height: 600px;
+
+            flex-grow: 2;
+        }
+
+        .video iframe {
+            height: 100%;
+            width: 100%;
+        }
+
+        .video p {
+            padding: 10px 0px 0px 0px;
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+        }
+
+        .menu p {
+            padding: 10px 0px 0px 0px;
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            font-size: 12px;
+
+        }
+
+        .desc {
+            padding: 12px 0px 0px 0px;
+            width: 600px;
+            font-weight: 100;
+            font-style: normal;
+            font-size: 15px;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            gap: 10px;
+
+
+
+
+
+
+
+
+
+        }
+
+        .sidebar div {
+            width: 100px;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            padding: 30px 84px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="cabeca">
+        <div><img src="/youtube/img/Left.png" alt=""></div>
+        <div><img src="/youtube/img/Center.png" alt=""></div>
+        <div><img src="/youtube/img/Right.png" alt=""></div>
+    </section>
+
+    <section class="main">
+        <section class="container">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pQ-vNvCrclU?si=Vy3iXA16T2dOPrNd"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Desenhos que eu QUEBRARIA na PORRADA</p>
+            </div>
+            <div class="menu"><img src="/youtube/img/Video Actions.png" alt="">
+                <p>28.418 visualizações Transmitido ao vivo em 23 ago. de 2022</p>
+                <div class="desc">Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso,
+                    criaremos uma landing page com a temática da série Stranger Things, a qual contará com a
+                    implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sidebar">
+
+            <div><img src="/youtube/img/Video.png" alt=""></div>
+            <div><img src="/youtube/img/Video (1).png" alt=""></div>
+            <div><img src="/youtube/img/Video (2).png" alt=""></div>
+            <div><img src="/youtube/img/Video (3).png" alt=""></div>
+            <div><img src="/youtube/img/Video (4).png" alt=""></div>
+            <div><img src="/youtube/img/Video (5).png" alt=""></div>
+            <div><img src="/youtube/img/Video (6).png" alt=""></div>
+            <div><img src="/youtube/img/Video (7).png" alt=""></div>
+            <div><img src="/youtube/img/Video (8).png" alt=""></div>
+        </section>
+    </section>
+
+
+</body>
+
+</html>
